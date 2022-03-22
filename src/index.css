@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+}
+.bg-page {
+  position: absolute;
+  width: 1983px;
+  height: 986px;
+  left: 108px;
+  top: 410.86px;
+  
+  background: url(image.png);
+  mix-blend-mode: soft-light;
+  opacity: 0.4;
+}
+
+.vector1{
+
+  background: linear-gradient(183.71deg, #D4DE95 34.93%, #7FFF30 60.5%, #44BD50 115.41%);
+  filter: blur(250px);
+}
+
+.vector3 {
+
+  
+  background: #23DC57;
+  filter: blur(200px);
+}
+.vector2 {
+  background: #28C600;
+  filter: blur(350px);
+}
+
+
+
+
