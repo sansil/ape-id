@@ -2,6 +2,9 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import AppFooter from './components/AppFooter'
+import vector1 from './assets/Vector1.svg'
+import vector2 from './assets/Vector2.svg'
+import vector3 from './assets/Vector3.svg'
 
 function App () {
   const [count, setCount] = useState(0)
@@ -44,9 +47,9 @@ function App () {
 
   return (
     <div className="App ">
-      <img className='absolute max-h-screen' src='/assets/Vector1.svg'></img>
-      <img className='absolute w-full max-h-screen' src='/assets/Vector2.svg'></img>
-      <img className='absolute top-0 right-0 w-96 h-96 ' src='/assets/Vector3.svg'></img>
+      <img className='absolute max-h-screen' src={vector1}></img>
+      <img className='absolute w-full max-h-screen' src={vector2}></img>
+      <img className='absolute top-0 right-0 w-96 h-96 ' src={vector3}></img>
       <div className="flex flex-col h-screen p-6 gap-y-3">
         {/* <div className='absolute inset-y-0 w-96 blur-[250px] vector1' ></div> */}
         {/* <div className='absolute top-0 right-0 w-96 h-96 blur-[250px]  bg-[#23DC57]' ></div> */}
