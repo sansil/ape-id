@@ -58,7 +58,7 @@ function App () {
         <div className="w-full h-full border border-black rounded-xl blur-none">
 
           <nav className="flex items-center justify-between px-12 py-6">
-            <span className='flex items-center text-3xl text-white'><svg className='w-5 mr-6' viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <span className='flex items-center text-3xl tracking-tighter text-white'><svg className='w-5 mr-6' viewBox="0 0 23 17" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M13.784 16.564L0.936 7.5V2.22L9.692 8.38V0.547998L22.54 9.568V14.804L13.784 8.644V16.564Z" fill="white" />
             </svg>
               ape id</span>
