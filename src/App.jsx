@@ -89,7 +89,7 @@ function App () {
                   <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                     <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
                   </svg>
-                </button> : <button onClick={() => setProfileImg(true)} className='inline-flex px-6 py-4 mt-10 text-base font-medium tracking-wide text-white border border-white rounded-lg hover:text-gray-100 hover:border-gray-100'> VIEW PROFILE</button>}
+                </button> : <button onClick={() => setProfileImg(true)} className='inline-flex px-6 py-4 mt-10 text-base font-medium tracking-wide text-indigo-500 border border-indigo-500 rounded-lg hover:text-indigo-600 hover:border-indigo-600'> VIEW PROFILE</button>}
 
             </header>
             {profileImg ? <div className=''>
